@@ -1,0 +1,24 @@
+<blocquote> (fazer citação de algo dito por alguém)
+<cite> (quem está citando)
+-------------------------------------------------
+
+
+<header> (cabeçalho)
+
+
+<nav> (navegação)
+
+
+<main> 
+
+
+<aside> (barra lateral)
+
+
+<footer> (nota de rodapé)
+-------------------------------------------------
+
+
+<div>
+
+<span>

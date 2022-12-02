@@ -1,0 +1,344 @@
+head{
+    margin: 0%;
+}
+
+.pag1{
+    background-image: url("./Assets/cup-coffee-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+
+}
+.bot{
+   background-color: #F2BD6C;
+    color: white;
+    padding: 5px;
+    
+    margin: 0%;
+    position:relative;
+    
+    right: 25px;
+    cursor: pointer;
+}
+
+.car{
+    color: #EFA331;
+}
+
+.bota{
+color: #F2BD6C;
+}
+
+.cafe{
+    color: white;
+    position:relative;
+    
+    left: 35px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    grid-area: title;
+    color: #EFA331;
+}
+
+.just{
+    font-size: 25px;
+    grid-area: mid;
+    color: white;
+}
+.justo{
+    font-size: large;
+    position: relative;
+    left: 460px;
+    grid-area: feet;
+    color: white;
+}
+
+.botar{
+    font-size: 25px;
+    position: relative;
+    left: 420px;
+    grid-area: ofeet;
+    background-color: #F2BD6C;
+    color: white;
+    width:250px;
+    height: 60px;
+    cursor: pointer;
+    }
+
+
+
+.sec1{
+    position: relative;
+    top: 150px;
+    display: grid;
+        grid-template-areas: "a title"
+                             "a mid"
+                             "feet ofeet" ;
+
+
+}
+
+
+
+
+
+.tim{
+    background-image : url("./Assets/cup-coffee-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+}
+.overlay{
+    background-color: rgba(30, 30, 30, 0.95);
+    height: 120vh;
+    z-index: 2;
+}
+
+.ben{
+    position: relative;
+    top: 70px;
+    text-align: center;
+    color: white;
+}
+
+.sub{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 20px;
+}
+
+
+.sec2{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 120px;
+}
+
+.pato1{
+    background-color: #EFA331;
+    padding: 20 30px;
+    text-align: center;
+}
+.pato2{
+    background-color: #EFA331;
+    padding: 10 30px;
+    text-align: center;
+}
+.pato3{
+    background-color: #EFA331;
+    padding: 10 30px;
+    text-align: center;
+}
+
+.ben1{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.sub1{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 20px;
+}
+
+
+.sec3{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 60px;
+    text-align: center;
+    color: white;
+}
+
+.num{
+    border: 3px solid orange;
+    padding: 5px;
+}
+
+
+.patao1{
+    padding: 20 30px;
+    text-align: center;
+}
+.patao2{
+    padding: 20 30px;
+    text-align: center;
+}
+.patao3{
+    padding: 20 30px;
+    text-align: center;
+}
+
+.titulo{
+    position: relative;
+    color: #EFA331;
+    text-align: center;
+    top: 80px;
+}
+.dado{
+    position: relative;
+    top: 25%;
+}
+.dedo{
+    position: relative;
+    background-color: #F2BD6C;
+    color: white;
+    padding: 15px;
+    width: 160px;
+    top: 170px;
+    left: 475px;
+}
+
+footer{
+    background-image : url("./Assets/laptop-background.png");
+    background-repeat: no-repeat;
+   background-size: contain;
+    background-position: center;
+    height: 120vh;
+    z-index: 1;
+}
+
+
+.vaca{
+    background-color: #EFA331;
+    width: 275px;
+    text-align: center;
+    position: relative;
+    left: 475px;
+}
+
+.cabra{
+    background-color: #EFA331;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.overlay2{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.time{
+    position: relative;
+    top: 180px;
+}
+
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .prev{
+    position: relative;
+    bottom: 340px;
+    left: -30px;
+  }
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    position: relative;
+    left: 475px;
+    bottom: 340px;
+  }
+  
+ 
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+ 
+  
+  
+ 
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #EFA331;
+    background-image: url(./Assets/laranja.png);
+  }
+  
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  .cavalao{
+    position: relative;
+    top: 150px;
+    left: 230px;
+    align-items: center;
+  }
+
+  .sub4{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 40px;
+}
+
+fieldset legend{
+    color: white;
+    margin-left: 15px;
+}
+
+fieldset p {
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+fieldset {
+    width: 500px;
+    border: 1px solid #EFA331;
+}

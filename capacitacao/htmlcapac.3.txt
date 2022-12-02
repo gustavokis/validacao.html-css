@@ -1,0 +1,81 @@
+<form action="" method="GET(com dados)/POST(sem)">
+
+<fieldset/disabled>
+
+<legend>
+
+<button	 type="submit"
+
+		 type="reset"
+>
+
+<label for="nome">Nome Completo</label>
+<input id="nome" type="text">
+------------------------------------------------
+
+
+
+
+<datalist id="fruitdata">
+
+<option>apple<option>
+<option>banana<option>
+------------------------------------------------
+
+
+<input
+	type="number/email/password/radio
+	/text/url/file/color/checkbox/search"
+	 autocomplete="email"
+	 value="texto"(aparece escrito no bloco)
+	 readonly
+	 required (obrigatório)
+	 placeholder=""(escreve oq é)	
+	 disabled 
+	 multiple(vários emails)
+	>
+------------------------------------------------
+<form action="">
+
+<input type="password"
+		minlength="4"
+		maxlength="8"
+		size="8"
+		
+
+		pattern="[0-9a-fA-f]{4,8}"
+>
+
+
+
+<button type="submit">Enviar</button>
+
+
+
+</form>
+
+------------------------------------------------
+
+ENVIAR ARQUIVO
+
+<form action="" method="post" 
+	enctype="multipart/form-data">
+	<input type="file">
+</form>
+
+------------------------------------------------
+
+
+<select name="" id="">
+
+<optgroup label="">
+
+<option>
+
+
+
+
+
+
+
+

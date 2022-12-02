@@ -1,0 +1,129 @@
+<!--(comentario)
+
+<h1> a <h6> (tilulo) ---> ordem de prioridade visual
+
+<li> (listar)//// <ol> (ordena os li numericamente)
+///////////////// <ul> (mantem somente os pontos)
+
+<img src="" alt="">
+
+hidden(esconde a tag)
+
+tabindex(ordena a escrita)
+
+<p> (escreve paragrafos)
+
+<em> (coloca oq esta dentro em italico)
+
+<a href="">conteudo</a>(cria um hiperlink em conteudo) 
+
+<br/> quebra linha
+------------------------------------------------------
+&nbsp; (da um espaço)
+
+&lt;/&gt; (menor que/maior que)
+
+&amp; (e comercial)
+
+&quot; (aspas duplas)
+
+&apos(aspas simples)
+------------------------------------------------------
+
+<!DOCTYPE html> (navegador entender q é html)
+
+<html>
+	<head>
+	<meta charset="utf-8"> (aceitar a mioria d caracteres)
+	<title> cavalo </title> (nome da pagina)
+	</head>
+	<body></body>
+</html>
+
+------------------------------------------------------
+
+
+<blockquote> (citação substituindo hiperlink)
+<cite> (colocar traço em baixo)
+<q> (citação curta)
+
+<abbr> (usado para abreviar, dando pra ver oq é se passar o mouse em cima)
+
+
+<address> (marcar informações importantes tipo endereço)
+------------------------------------------------------
+
+
+
+LISTAS DE DESCRIÇÃO
+
+<dl>
+	<dt><dt>   ----->CRIA UM TEMA E UMA DESCRIÇÃO
+<dl>
+
+------------------------------------------------------
+
+
+<code> (muda a cor do código genérico)
+<pre> (faz a formatação do vscode aparecer)
+
+
+<div> (faz uma quebra de linha)
+<span> (da um espaço antes do q esta escrito dentro)
+------------------------------------------------------
+
+target="_blank" (abre uma página nova)
+
+title="Ir para o google (aparece na escrita ao passar o mouse em cima)
+------------------------------------------------------
+
+FRAGMENTO
+
+<a href="#about">Sobre mim</a>
+		------> cria um fragmento na página criada 
+<h1 id="about">Sobre mim</h1>
+------------------------------------------------------
+
+
+<a href="qualquercoisa"></a> (pode chamar arquivo/entrar em outro diretório)/////// para sair da pasta coloca ../
+
+
+
+se n for absoluto mesmo colocando google.com é relativo a pasta
+------------------------------------------------------
+
+
+<table> (inicio da tabela)
+
+<caption> (descreve a tabela)
+
+<colgroup> (estiliza as colunas)
+<col span="2" style="background-color: uma cor">
+<colgroup>
+
+<thead>
+	<tr>		---------> primeira linha da tabela
+		<th>
+
+<tbody>
+	<tr>(table row)	---------> corpo da tabela
+		<td>
+
+<tfoot> 
+	<tr>		---------> normalmente o total
+		<td>(description)
+
+
+
+rowspan="2"(faz uma head ocupar duas linhas)
+colspan="2"(ocupar duas colunas)
+
+<th scope="colgroup/col/row">(acessibilidade)
+
+------------------------------------------------------
+
+
+<meta property="og:image/description/title"content="">
+
+
+ 

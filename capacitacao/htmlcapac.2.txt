@@ -1,0 +1,64 @@
+<video scr="" controls> (colocar video)
+
+
+<video controls>
+<source scr="" type="video/mp4">
+
+
+<video controls 
+	autoplay
+	preload"metadata"
+	loop
+	muted
+	poster=""(imagem de fundo antes de dar play)>
+------------------------------------------------------
+
+
+<audio controls>
+<source scr="" type="video/mp3">
+
+------------------------------------------------------
+
+
+<iframe
+	width=""
+	height""
+	scr=""
+	frameborder=""
+	allow="accelerometer; autoplay; encryptedmedia; gyroscope; picture-in-picture"
+	allowfullscreen
+	title=""
+
+------------------------------------------------------
+
+<figure>
+
+<img 
+	scr="https://source.unsplash.com/random" 	alt="descricao sucinta da imagem"
+	title="titulo ao descansar o mouse na imagem"
+	width=""
+	height=""
+>
+
+<figcaption>Título</figcaption>
+</figure>
+
+
+
+SE COLOCAR A IMAGEM DENTRO DE LINK AO CLICAR NA IMAGEM ABRE UM LINK
+------------------------------------------------------
+
+<svg>
+
+
+
+
+
+
+
+
+
+
+
+
+
